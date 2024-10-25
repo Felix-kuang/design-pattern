@@ -5,9 +5,11 @@ const customer1 = new Customer(
   "Felix",
   "Shi",
   "felixshi26@gmail.com",
-  "081270989858"
+  "081298765432",
+  "Tangerang"
 );
 
+//using builder
 const customer2 = Customer.Builder.setId(2)
   .setFirstName("John")
   .setLastName("Doe")
